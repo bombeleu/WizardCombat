@@ -9,7 +9,13 @@ public class PlayerWizard : Wizard {
 			magicState = WizardMagicState.fireBall;
 		}
 		if (Input.GetKeyDown (KeyCode.W)) {
+			magicState = WizardMagicState.iceBall;
+		}
+		if (Input.GetKeyDown (KeyCode.E)) {
 			magicState = WizardMagicState.meteor;
+		}
+		if (Input.GetKeyDown (KeyCode.R)) {
+			magicState = WizardMagicState.reflect;
 		}
 		if (Input.GetKeyDown (KeyCode.Escape)) {
 			magicState = WizardMagicState.idle;

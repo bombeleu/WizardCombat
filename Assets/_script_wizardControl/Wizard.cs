@@ -11,7 +11,9 @@ public class Wizard : MonoBehaviour {
 	public enum WizardMagicState{
 		idle,
 		fireBall,
-		meteor
+		iceBall,
+		meteor,
+		reflect
 	};
 	//This File include the vars of the wizard class
 	public int health;
